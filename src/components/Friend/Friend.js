@@ -6,7 +6,7 @@ const Friend = (props) => {
 
   const navigate = useNavigate();
   const showFriendDetail = () => {
-    const path = `/friend/$(id)`;
+    const path = `/friend/${id}`;
     navigate(path);
   };
   return (
